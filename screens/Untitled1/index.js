@@ -14,7 +14,9 @@ const Untitled1 = () => {
       position: 'relative',
       flex: 1
     }} style={styles.ovNmnVdj}><ImageBackground style={styles.eZNqgszM} source={require("./Untitled design.png")} resizeMode="cover"><Text style={styles.ZxDrHpAH}>Select a Product Line below to get a FREE Quote</Text></ImageBackground><View style={styles.xykWEWks}><Text style={styles.iSHCLPdF}>Thank you for downloading this quick and simple app to provide you with on-demand access to Quotes, Policies, and Contact Information!</Text></View></ScrollView>
-    <Pressable><View style={styles.qvJoWfqH}><Text style={styles.bRWWcGeT}>Life Insurance</Text></View></Pressable><View style={styles.iULdRJLZ}><Text style={styles.LnherMdU}>Health Insurance</Text></View><View style={styles.LrttcIVu}><Text style={styles.ofDSkiyp}>Life Insurance</Text></View><View style={styles.SWEnwwCX}><Text style={styles.gAufSqfG}>Vision Insurance</Text></View><View style={styles.UwcjQEOg}><Text style={styles.ZISNtsVG}>Contact Our Team</Text></View></SafeAreaView>;
+    <View style={styles.qvJoWfqH}><Text style={styles.bRWWcGeT}>Life Insurance</Text></View><View style={styles.iULdRJLZ}><Text style={styles.LnherMdU}>Health Insurance</Text></View><View style={styles.LrttcIVu}><Text style={styles.ofDSkiyp}>Life Insurance</Text></View><View style={styles.SWEnwwCX}><Text style={styles.gAufSqfG}>Vision Insurance</Text></View><View style={styles.UwcjQEOg}><Text style={styles.ZISNtsVG}>Contact Our Team</Text></View><Pressable onPress={() => {
+      navigation.navigate("AboutTheAppScreen3");
+    }}><View style={styles.rkWbJIBT}></View></Pressable></SafeAreaView>;
 };
 
 const styles = StyleSheet.create({
@@ -372,6 +374,29 @@ const styles = StyleSheet.create({
     top: 229,
     fontWeight: "700",
     textAlign: "center"
+  },
+  rkWbJIBT: {
+    height: 35,
+    width: 168,
+    backgroundColor: "#b5d4f2",
+    borderRadius: 40,
+    color: "#777777",
+    position: "absolute",
+    left: 7,
+    top: 307,
+    borderWidth: 1
+  },
+  YLvrmbzA: {
+    width: 144,
+    height: 26,
+    lineHeight: 20,
+    fontSize: 18,
+    borderRadius: 0,
+    fontWeight: "700",
+    textAlign: "center",
+    position: "absolute",
+    left: 12,
+    top: 4.5
   }
 });
 export default Untitled1;
