@@ -1,11 +1,9 @@
 import { StyleSheet } from "react-native";
 import React from "react";
-import WebView from "react-native-webview";
 
 const App = () => {
-  return <WebView source={{
-    uri: "https://cdn.quoteandapply.io/widget.js"
-  }} style={_styles.kjcDDKAD} />;
+  return <iframe> src="https://cdn.quoteandapply.io/widget.js"
+  </iframe>;
 };
 
 export default App;
