@@ -1,9 +1,12 @@
+import { useNavigation } from "@react-navigation/native";
+import { Pressable } from "react-native";
 import { Text } from "react-native";
 import { ImageBackground } from "react-native";
 import React from "react";
 import { View, StyleSheet, ScrollView, SafeAreaView } from "react-native";
 
 const Untitled1 = () => {
+  const navigation = useNavigation();
   return <SafeAreaView style={styles.safeArea}>
         <ScrollView contentContainerStyle={{
       backgroundColor: '#f0f0f1',
@@ -11,7 +14,7 @@ const Untitled1 = () => {
       position: 'relative',
       flex: 1
     }} style={styles.ovNmnVdj}><ImageBackground style={styles.eZNqgszM} source={require("./Untitled design.png")} resizeMode="cover"><Text style={styles.ZxDrHpAH}>Select a Product Line below to get a FREE Quote</Text></ImageBackground><View style={styles.xykWEWks}><Text style={styles.iSHCLPdF}>Thank you for downloading this quick and simple app to provide you with on-demand access to Quotes, Policies, and Contact Information!</Text></View></ScrollView>
-    <View style={styles.qvJoWfqH}><Text style={styles.bRWWcGeT}>Life Insurance</Text></View><View style={styles.iULdRJLZ}><Text style={styles.LnherMdU}>Health Insurance</Text></View><View style={styles.sePndkok}><Text style={styles.ShmRtbVU}>Life Insurance</Text></View><View style={styles.LrttcIVu}><Text style={styles.ofDSkiyp}>Life Insurance</Text></View><View style={styles.eFGkXaVK}><Text style={styles.wflHDHjl}>Dental Insurance</Text></View><View style={styles.SWEnwwCX}><Text style={styles.gAufSqfG}>Vision Insurance</Text></View><View style={styles.UwcjQEOg}><Text style={styles.ZISNtsVG}>Contact Our Team</Text></View></SafeAreaView>;
+    <Pressable><View style={styles.qvJoWfqH}><Text style={styles.bRWWcGeT}>Life Insurance</Text></View></Pressable><View style={styles.iULdRJLZ}><Text style={styles.LnherMdU}>Health Insurance</Text></View><View style={styles.LrttcIVu}><Text style={styles.ofDSkiyp}>Life Insurance</Text></View><View style={styles.SWEnwwCX}><Text style={styles.gAufSqfG}>Vision Insurance</Text></View><View style={styles.UwcjQEOg}><Text style={styles.ZISNtsVG}>Contact Our Team</Text></View></SafeAreaView>;
 };
 
 const styles = StyleSheet.create({
