@@ -10,20 +10,24 @@ const Untitled1 = () => {
       padding: 10,
       position: 'relative',
       flex: 1
-    }} style={styles.ovNmnVdj}><ImageBackground style={styles.eZNqgszM} source={require("./Untitled design.png")} resizeMode="cover"></ImageBackground><View style={styles.xykWEWks}><Text style={styles.rkbLqBeT}>Welcome to Hill Insurance Service!</Text><Text style={styles.iSHCLPdF}>Thank you for downloading this quick and simple app to provide you with on-demand access to Quotes, Policies, and contact information!</Text></View></ScrollView>
-    <View style={styles.sRDtQwcW}><Text style={styles.xwMGeGtR}>Get a FREE Health insurance Quote</Text></View><View style={styles.qvJoWfqH}><Text style={styles.bRWWcGeT}>Get a FREE Life Insurance Quote</Text></View></SafeAreaView>;
+    }} style={styles.ovNmnVdj}><ImageBackground style={styles.eZNqgszM} source={require("./Untitled design.png")} resizeMode="cover"><Text style={styles.ZxDrHpAH}>Select a Product Line below to get a FREE Quote</Text></ImageBackground><View style={styles.xykWEWks}><Text style={styles.iSHCLPdF}>Thank you for downloading this quick and simple app to provide you with on-demand access to Quotes, Policies, and Contact Information!</Text></View></ScrollView>
+    <View style={styles.qvJoWfqH}><Text style={styles.bRWWcGeT}>Life Insurance</Text></View><View style={styles.iULdRJLZ}><Text style={styles.LnherMdU}>Health Insurance</Text></View><View style={styles.sePndkok}><Text style={styles.ShmRtbVU}>Life Insurance</Text></View><View style={styles.LrttcIVu}><Text style={styles.ofDSkiyp}>Life Insurance</Text></View><View style={styles.eFGkXaVK}><Text style={styles.wflHDHjl}>Dental Insurance</Text></View><View style={styles.SWEnwwCX}><Text style={styles.gAufSqfG}>Vision Insurance</Text></View><View style={styles.UwcjQEOg}><Text style={styles.ZISNtsVG}>Contact Our Team</Text></View></SafeAreaView>;
 };
 
 const styles = StyleSheet.create({
   safeArea: {
-    height: '100%'
+    height: '100%',
+    backgroundColor: "#eee2b2"
   },
   eZNqgszM: {
     width: 351,
     height: 588,
     position: "absolute",
     left: 0,
-    top: 1
+    top: 1,
+    transform: [{
+      rotate: "0deg"
+    }]
   },
   jQVptIQN: {
     backgroundColor: "#ffffff",
@@ -65,17 +69,17 @@ const styles = StyleSheet.create({
     opacity: 1
   },
   xykWEWks: {
-    height: 183,
-    width: 349,
-    backgroundColor: "#f6e7cb",
+    height: 111,
+    width: 325,
+    backgroundColor: "#eee2b2",
     borderRadius: 40,
     color: "#777777",
     position: "absolute",
-    left: 3,
-    top: 374
+    left: 17,
+    top: 438
   },
   rkbLqBeT: {
-    width: 349,
+    width: 304,
     height: 42,
     lineHeight: 14,
     fontSize: 20,
@@ -83,18 +87,19 @@ const styles = StyleSheet.create({
     textAlign: "center",
     fontWeight: "700",
     position: "absolute",
-    left: 0,
-    top: 33
+    left: 10,
+    top: 22
   },
   iSHCLPdF: {
-    width: 350,
-    height: 126,
+    width: 303,
+    height: 88,
     lineHeight: 20,
     fontSize: 18,
     borderRadius: 0,
     position: "absolute",
-    top: 74,
-    textAlign: "center"
+    top: 14,
+    textAlign: "center",
+    left: 11
   },
   HaCpsaUI: {
     height: 49,
@@ -113,7 +118,7 @@ const styles = StyleSheet.create({
     borderRadius: 40,
     color: "#777777",
     position: "absolute",
-    left: 48.5,
+    left: 52,
     top: 222,
     borderWidth: 1
   },
@@ -129,14 +134,15 @@ const styles = StyleSheet.create({
   },
   xwMGeGtR: {
     width: 215,
-    height: 47,
+    height: 30,
     lineHeight: 20,
     fontSize: 20,
     borderRadius: 0,
     fontWeight: "700",
     textAlign: "center",
     position: "absolute",
-    left: 19.5
+    left: 20,
+    top: 0
   },
   qTbnarCv: {
     width: 253,
@@ -148,6 +154,29 @@ const styles = StyleSheet.create({
     textAlign: "center"
   },
   qvJoWfqH: {
+    height: 35,
+    width: 168,
+    backgroundColor: "#b5d4f2",
+    borderRadius: 40,
+    color: "#777777",
+    position: "absolute",
+    left: 7,
+    top: 307,
+    borderWidth: 1
+  },
+  bRWWcGeT: {
+    width: 144,
+    height: 26,
+    lineHeight: 20,
+    fontSize: 18,
+    borderRadius: 0,
+    fontWeight: "700",
+    textAlign: "center",
+    position: "absolute",
+    left: 12,
+    top: 4.5
+  },
+  YzJUJVrY: {
     height: 49,
     width: 254,
     backgroundColor: "#b5d4f2",
@@ -155,10 +184,10 @@ const styles = StyleSheet.create({
     color: "#777777",
     position: "absolute",
     left: 52,
-    top: 161,
+    top: 283,
     borderWidth: 1
   },
-  bRWWcGeT: {
+  HMmTFBSe: {
     width: 226,
     height: 47,
     lineHeight: 20,
@@ -168,6 +197,178 @@ const styles = StyleSheet.create({
     textAlign: "center",
     position: "absolute",
     left: 14
+  },
+  QEHMYhDH: {
+    height: 49,
+    width: 254,
+    backgroundColor: "#b5d4f2",
+    borderRadius: 40,
+    color: "#777777",
+    position: "absolute",
+    left: 52,
+    top: 344,
+    borderWidth: 1
+  },
+  muPeURLh: {
+    width: 226,
+    height: 47,
+    lineHeight: 20,
+    fontSize: 20,
+    borderRadius: 0,
+    fontWeight: "700",
+    textAlign: "center",
+    position: "absolute",
+    left: 14
+  },
+  iULdRJLZ: {
+    height: 35,
+    width: 168,
+    backgroundColor: "#b5d4f2",
+    borderRadius: 40,
+    color: "#777777",
+    position: "absolute",
+    left: 179,
+    top: 307,
+    borderWidth: 1
+  },
+  LnherMdU: {
+    width: 144,
+    height: 27,
+    lineHeight: 20,
+    fontSize: 18,
+    borderRadius: 0,
+    fontWeight: "700",
+    textAlign: "center",
+    position: "absolute",
+    left: 12,
+    top: 4
+  },
+  sePndkok: {
+    height: 35,
+    width: 168,
+    backgroundColor: "#b5d4f2",
+    borderRadius: 40,
+    color: "#777777",
+    position: "absolute",
+    left: 7,
+    top: 352,
+    borderWidth: 1
+  },
+  ShmRtbVU: {
+    width: 144,
+    height: 26,
+    lineHeight: 20,
+    fontSize: 18,
+    borderRadius: 0,
+    fontWeight: "700",
+    textAlign: "center",
+    position: "absolute",
+    left: 12,
+    top: 4.5
+  },
+  LrttcIVu: {
+    height: 35,
+    width: 168,
+    backgroundColor: "#b5d4f2",
+    borderRadius: 40,
+    color: "#777777",
+    position: "absolute",
+    left: 7,
+    top: 352,
+    borderWidth: 1
+  },
+  ofDSkiyp: {
+    width: 144,
+    height: 26,
+    lineHeight: 20,
+    fontSize: 18,
+    borderRadius: 0,
+    fontWeight: "700",
+    textAlign: "center",
+    position: "absolute",
+    left: 12,
+    top: 4.5
+  },
+  eFGkXaVK: {
+    height: 35,
+    width: 168,
+    backgroundColor: "#b5d4f2",
+    borderRadius: 40,
+    color: "#777777",
+    position: "absolute",
+    left: 7,
+    top: 352,
+    borderWidth: 1
+  },
+  wflHDHjl: {
+    width: 144,
+    height: 26,
+    lineHeight: 20,
+    fontSize: 18,
+    borderRadius: 0,
+    fontWeight: "700",
+    textAlign: "center",
+    position: "absolute",
+    left: 12,
+    top: 4.5
+  },
+  SWEnwwCX: {
+    height: 35,
+    width: 168,
+    backgroundColor: "#b5d4f2",
+    borderRadius: 40,
+    color: "#777777",
+    position: "absolute",
+    left: 178,
+    top: 352,
+    borderWidth: 1
+  },
+  gAufSqfG: {
+    width: 144,
+    height: 26,
+    lineHeight: 20,
+    fontSize: 18,
+    borderRadius: 0,
+    fontWeight: "700",
+    textAlign: "center",
+    position: "absolute",
+    left: 12,
+    top: 4.5
+  },
+  UwcjQEOg: {
+    height: 35,
+    width: 335,
+    backgroundColor: "#b6f2bb",
+    borderRadius: 40,
+    color: "#777777",
+    position: "absolute",
+    left: 7,
+    top: 397,
+    borderWidth: 1
+  },
+  ZISNtsVG: {
+    width: 305,
+    height: 26,
+    lineHeight: 20,
+    fontSize: 18,
+    borderRadius: 0,
+    fontWeight: "700",
+    textAlign: "center",
+    position: "absolute",
+    left: 12,
+    top: 5
+  },
+  ZxDrHpAH: {
+    width: 324,
+    height: 50,
+    lineHeight: 25,
+    fontSize: 20,
+    borderRadius: 0,
+    position: "absolute",
+    left: 14,
+    top: 229,
+    fontWeight: "700",
+    textAlign: "center"
   }
 });
 export default Untitled1;
